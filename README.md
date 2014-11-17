@@ -113,9 +113,9 @@ Suppose we have one `Painter`, and several threads:
 
 **Discussion**
 + If two threads are calling different methods on the same `Painter`, can that painter be:
-	picking and painting simultaneously?
-	painting and mixing simultaneously?
-	mixing and framing simultaneously?
+  picking and painting simultaneously?
+  painting and mixing simultaneously?
+  mixing and framing simultaneously?
 
 + Suppose we create two `Painter`s who share a single `Brush`. If we work with each different `Painter` on a different thread, can they be:
 	picking simultaneously?
