@@ -118,10 +118,10 @@ Suppose we have one `Painter`, and several threads:
 	+ mixing and framing simultaneously?
 
 + Suppose we create two `Painter`s who share a single `Brush`. If we work with each different `Painter` on a different thread, can they be:
-	picking simultaneously?
-	painting simultaneously?
-	mixing simultaneously?
-	framing simultaneously?
+	+ picking simultaneously?
+	+ painting simultaneously?
+	+ mixing simultaneously?
+	+ framing simultaneously?
 
 + What if the two `Painter`s share two different `Brush` objects that are `.equals` to one another?
 
