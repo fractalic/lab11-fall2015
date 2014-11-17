@@ -59,8 +59,9 @@ Locks have two operations:
 - *acquire*: the acquiring thread becomes the owner of the lock
 - *release*: relinquish ownership to allow another thread to own the lock
 
-*Discussion**
-If a thread *B* tries to acquire a lock currently held by thread *A*, what happens to thread *B*? What happens to thread *A*?
+**Discussion**
+
++ If a thread *B* tries to acquire a lock currently held by thread *A*, what happens to thread *B*? What happens to thread *A*?
 
 In Java, *every* `Object` &mdash; i.e., every instance of every type &mdash; has an associated lock.
 Locks are acquired and released using the keyword `synchronized`:
