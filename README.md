@@ -306,7 +306,15 @@ Make the necessary changes to the code and write an argument given the following
 - we comply with `Painter`'s locking discipline, for example by giving brushes to all painters in the same order
 
 
-## Document Thread Safety Arguments
+### Submission
+
+Submit a text file with the answers to the discussion questions in this activity. Push the text file to a BitBucket repository named `lab10` and share the repository with the teaching assistant for your lab section. 
+
+You do not need to submit any code but you can include code in the text file to help in the discussions and to further your own understanding.
+
+> Ask the teaching assistant for clarifications on how threading works. If the lab session does not provide sufficient time then ask on Piazza.
+
+### Document Thread Safety Arguments
 
 **Whenever you introduce concurrency, document a clear thread safety argument in your code.**
 
