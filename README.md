@@ -31,9 +31,9 @@ And here, we'd like to implement a threadsafe mutable graph datatype:
 
 ```java
 public class Graph {
-    private final Set&lt;Node&gt; nodes = Collections.synchronizedSet(new HashSet&lt;Node&gt;());
-    private final Map&lt;Node,Set&lt;Node&gt;&gt; edges =
-                Collections.synchronizedMap(new HashMap&lt;Node,Set&lt;Node&gt;&gt;());
+    private final Set<Node> nodes = Collections.synchronizedSet(new HashSet<Node>());
+    private final Map<Node,Set<Node>> edges =
+                Collections.synchronizedMap(new HashMap<Node,Set<Node>>());
     // Rep invariant:
     //   nodes, edges != null
     //   for all x, y such that y is a member of edges.get(x),
@@ -135,7 +135,7 @@ In the lecture notes, we had a `Wizard` class with methods to add and remove fri
 public class Wizard {
 
     private final String name;
-    private final Set&lt;Wizard&gt; friends;
+    private final Set<Wizard> friends;
     // Rep invariant:
     //   name, friends != null
     //   friend links are bidirectional: for all f in friends, f.friends contains this
@@ -230,10 +230,10 @@ Let's look at another version of our painterly example where `Painter`s have mul
 ```java
 public class Painter {
 
-    private Set&lt;Brush&gt; brushes;
+    private Set<Brush> brushes;
     private Palette palette;
     
-    public Painter(Set&lt;Brush&gt; brushes) {
+    public Painter(Set<Brush> brushes) {
         this.brushes = brushes;
         this.palette = new Palette();
     }
@@ -273,7 +273,7 @@ public class Main {
     
         int painters = 10;
         
-        for (int ii = 0; ii &lt; painters; ii++) {
+        for (int ii = 0; ii < painters; ii++) {
             new Thread(new Runnable() {
                 public void run() {
                     // get a Painter
