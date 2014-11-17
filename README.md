@@ -130,7 +130,7 @@ Suppose we have one `Painter`, and several threads:
 
 ### Deadlock
 
-In the lecture notes, we had a `Wizard` class with methods to add and remove friends.
+In the notes, we had a `Wizard` class with methods to add and remove friends.
 
 ```java
 public class Wizard {
@@ -199,7 +199,6 @@ In the case of `Wizard`s, we can place them in a `Castle`, and use the lock on t
 - Immutability
 - Use of thread-safe datatypes *with non-blocking operations*
 - Message-passing, e.g. with `BlockingQueue`s, and confinement
-
 - *Other ideas?*
 
 
