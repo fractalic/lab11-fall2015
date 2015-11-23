@@ -1,4 +1,5 @@
-Lab 10: Multithreading and Synchronization
+CPEN 221 / Fall 2015 / Lab 11
+Multithreading and Synchronization
 =====
 
 
