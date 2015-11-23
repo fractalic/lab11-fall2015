@@ -12,7 +12,7 @@ We will practice locking disciplines that avoid deadlock with multiple locks, an
 
 ### Bad thread safety arguments
 
-The [notes on thread synchronization](http://gsathish.github.io/eece210/o-Synchronization/) include two examples of bad thread safety arguments. Recall that `EditBuffer` represents a mutable sequence of characters:
+The [notes on thread synchronization](https://www.evernote.com/shard/s3/sh/c4b378a9-81fb-4bf3-85c2-c3ce7886038e/6720f908f1ed7eca) include two examples of bad thread safety arguments. Recall that `EditBuffer` represents a mutable sequence of characters:
 
 ```java
 public class SimpleBuffer implements EditBuffer {
