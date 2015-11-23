@@ -2,13 +2,10 @@ CPEN 221 / Fall 2015 / Lab 11
 Multithreading and Synchronization
 =====
 
-
 ### Thread Safety and Synchronization
 
 The goal of this lab activity is to review the use of synchronization to create thread-safe datatypes.
 We will practice locking disciplines that avoid deadlock with multiple locks, and practice making thread safety arguments.
-
-----
 
 ### Bad thread safety arguments
 
