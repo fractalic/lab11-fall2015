@@ -306,7 +306,7 @@ Make the necessary changes to the code and write an argument given the following
 
 ### Submission
 
-Submit a text file with the answers to the discussion questions in this activity. Push the text file to a BitBucket repository named `lab10` and share the repository with the teaching assistant for your lab section. 
+Submit a text file (PDF format) to Gradescope with the answers to the discussion questions in this activity. 
 
 You do not need to submit any code but you can include code in the text file to help in the discussions and to further your own understanding.
 
